@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1D3A052D66C236000D6C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D3A042D66C236000D6C7E /* AppDelegate.swift */; };
+		7F1D3A072D66C236000D6C7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D3A062D66C236000D6C7E /* SceneDelegate.swift */; };
+		7F1D3A092D66C236000D6C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D3A082D66C236000D6C7E /* ViewController.swift */; };
+		7F1D3A0C2D66C236000D6C7E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7F1D3A0B2D66C236000D6C7E /* Base */; };
+		7F1D3A0E2D66C238000D6C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1D3A0D2D66C238000D6C7E /* Assets.xcassets */; };
+		7F1D3A112D66C238000D6C7E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7F1D3A102D66C238000D6C7E /* Base */; };
+		7F1D3A192D66C331000D6C7E /* TTPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D3A182D66C331000D6C7E /* TTPlayerViewController.swift */; };
+		7F1D3A1D2D66CE5D000D6C7E /* ttlicense.lic in Resources */ = {isa = PBXBuildFile; fileRef = 7F1D3A1C2D66CE5D000D6C7E /* ttlicense.lic */; };
+		B94E3083D12CCB1C8F1F0836 /* Pods_TTPlayerDecryptDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CEFB75EE07DC20FEFA84E96 /* Pods_TTPlayerDecryptDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4601E1E331E0555FF809BEED /* Pods-TTPlayerDecryptDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTPlayerDecryptDemo.debug.xcconfig"; path = "Target Support Files/Pods-TTPlayerDecryptDemo/Pods-TTPlayerDecryptDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7CEFB75EE07DC20FEFA84E96 /* Pods_TTPlayerDecryptDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTPlayerDecryptDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1D3A012D66C236000D6C7E /* TTPlayerDecryptDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTPlayerDecryptDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1D3A042D66C236000D6C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F1D3A062D66C236000D6C7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F1D3A082D66C236000D6C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F1D3A0B2D66C236000D6C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F1D3A0D2D66C238000D6C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F1D3A102D66C238000D6C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F1D3A122D66C238000D6C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1D3A182D66C331000D6C7E /* TTPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTPlayerViewController.swift; sourceTree = "<group>"; };
+		7F1D3A1C2D66CE5D000D6C7E /* ttlicense.lic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ttlicense.lic; sourceTree = "<group>"; };
+		DAC619B296F270B585C94F97 /* Pods-TTPlayerDecryptDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTPlayerDecryptDemo.release.xcconfig"; path = "Target Support Files/Pods-TTPlayerDecryptDemo/Pods-TTPlayerDecryptDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F1D39FE2D66C236000D6C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94E3083D12CCB1C8F1F0836 /* Pods_TTPlayerDecryptDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F1D39F82D66C236000D6C7E = {
+			isa = PBXGroup;
+			children = (
+				7F1D3A032D66C236000D6C7E /* TTPlayerDecryptDemo */,
+				7F1D3A022D66C236000D6C7E /* Products */,
+				89F13100F5B4DA920058FFA4 /* Pods */,
+				DAC02920C14E3747B58729F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F1D3A022D66C236000D6C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F1D3A012D66C236000D6C7E /* TTPlayerDecryptDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F1D3A032D66C236000D6C7E /* TTPlayerDecryptDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7F1D3A042D66C236000D6C7E /* AppDelegate.swift */,
+				7F1D3A062D66C236000D6C7E /* SceneDelegate.swift */,
+				7F1D3A082D66C236000D6C7E /* ViewController.swift */,
+				7F1D3A182D66C331000D6C7E /* TTPlayerViewController.swift */,
+				7F1D3A0A2D66C236000D6C7E /* Main.storyboard */,
+				7F1D3A0D2D66C238000D6C7E /* Assets.xcassets */,
+				7F1D3A1C2D66CE5D000D6C7E /* ttlicense.lic */,
+				7F1D3A0F2D66C238000D6C7E /* LaunchScreen.storyboard */,
+				7F1D3A122D66C238000D6C7E /* Info.plist */,
+			);
+			path = TTPlayerDecryptDemo;
+			sourceTree = "<group>";
+		};
+		89F13100F5B4DA920058FFA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4601E1E331E0555FF809BEED /* Pods-TTPlayerDecryptDemo.debug.xcconfig */,
+				DAC619B296F270B585C94F97 /* Pods-TTPlayerDecryptDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DAC02920C14E3747B58729F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CEFB75EE07DC20FEFA84E96 /* Pods_TTPlayerDecryptDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F1D3A002D66C236000D6C7E /* TTPlayerDecryptDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1D3A152D66C238000D6C7E /* Build configuration list for PBXNativeTarget "TTPlayerDecryptDemo" */;
+			buildPhases = (
+				051B1892F277C18F28CCEDD5 /* [CP] Check Pods Manifest.lock */,
+				7F1D39FD2D66C236000D6C7E /* Sources */,
+				7F1D39FE2D66C236000D6C7E /* Frameworks */,
+				7F1D39FF2D66C236000D6C7E /* Resources */,
+				77BA417229E21774A413E038 /* [CP] Embed Pods Frameworks */,
+				08C7E56CAC2595A0A2950810 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTPlayerDecryptDemo;
+			productName = TTPlayerDecryptDemo;
+			productReference = 7F1D3A012D66C236000D6C7E /* TTPlayerDecryptDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F1D39F92D66C236000D6C7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					7F1D3A002D66C236000D6C7E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 7F1D39FC2D66C236000D6C7E /* Build configuration list for PBXProject "TTPlayerDecryptDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F1D39F82D66C236000D6C7E;
+			productRefGroup = 7F1D3A022D66C236000D6C7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F1D3A002D66C236000D6C7E /* TTPlayerDecryptDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F1D39FF2D66C236000D6C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1D3A0E2D66C238000D6C7E /* Assets.xcassets in Resources */,
+				7F1D3A112D66C238000D6C7E /* Base in Resources */,
+				7F1D3A0C2D66C236000D6C7E /* Base in Resources */,
+				7F1D3A1D2D66CE5D000D6C7E /* ttlicense.lic in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		051B1892F277C18F28CCEDD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTPlayerDecryptDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08C7E56CAC2595A0A2950810 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTPlayerDecryptDemo/Pods-TTPlayerDecryptDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTPlayerDecryptDemo/Pods-TTPlayerDecryptDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TTPlayerDecryptDemo/Pods-TTPlayerDecryptDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77BA417229E21774A413E038 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTPlayerDecryptDemo/Pods-TTPlayerDecryptDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTPlayerDecryptDemo/Pods-TTPlayerDecryptDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TTPlayerDecryptDemo/Pods-TTPlayerDecryptDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F1D39FD2D66C236000D6C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1D3A092D66C236000D6C7E /* ViewController.swift in Sources */,
+				7F1D3A052D66C236000D6C7E /* AppDelegate.swift in Sources */,
+				7F1D3A072D66C236000D6C7E /* SceneDelegate.swift in Sources */,
+				7F1D3A192D66C331000D6C7E /* TTPlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F1D3A0A2D66C236000D6C7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1D3A0B2D66C236000D6C7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F1D3A0F2D66C238000D6C7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1D3A102D66C238000D6C7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F1D3A132D66C238000D6C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F1D3A142D66C238000D6C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F1D3A162D66C238000D6C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4601E1E331E0555FF809BEED /* Pods-TTPlayerDecryptDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TTPlayerDecryptDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.ttplayer-decrypt-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F1D3A172D66C238000D6C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC619B296F270B585C94F97 /* Pods-TTPlayerDecryptDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TTPlayerDecryptDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.ttplayer-decrypt-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F1D39FC2D66C236000D6C7E /* Build configuration list for PBXProject "TTPlayerDecryptDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1D3A132D66C238000D6C7E /* Debug */,
+				7F1D3A142D66C238000D6C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1D3A152D66C238000D6C7E /* Build configuration list for PBXNativeTarget "TTPlayerDecryptDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1D3A162D66C238000D6C7E /* Debug */,
+				7F1D3A172D66C238000D6C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F1D39F92D66C236000D6C7E /* Project object */;
+}
