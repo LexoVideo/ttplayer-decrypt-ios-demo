@@ -59,7 +59,7 @@ class TTPlayerViewController: UIViewController {
 
         // decrypt play needed
         
-        engine.setOptionForKey(VEKKey.VEKKeyPlayerSetPrivateFFmpegProto_NSString.rawValue, value: "demo")
+        engine.setOptionForKey(VEKKey.VEKKeyPlayerSetPrivateFFmpegProto_NSString.rawValue, value: "lexo")
         // fixed 21
         engine.setOptionForKey(VEKKey.VEKKeyPlayerSetHLSConvertUrlOrder_NSString.rawValue, value: "21")
         // enabled buffer processor
@@ -78,7 +78,8 @@ extension TTPlayerViewController: TTVideoEngineBufferProcessorDelegate {
     }
             
     private func createPlugin() -> DRMPlugin {
-        let plugin = DRMPlugin()
+        let encryptKey = "your_encrypt_key"
+        let plugin = DRMPlugin(encryptKey: encryptKey)
         return plugin
     }
     

@@ -11,7 +11,7 @@ target 'TTPlayerDecryptDemo' do
   pod 'SnapKit'
   
   # Pods for TTPlayerDecryptDemo
-  pod 'DRMLib', '2.1.1'
+  pod 'DRMLib'
   
   ## TT
   pod 'TTSDK', '1.41.3.603-premium', :subspecs => ['Player']

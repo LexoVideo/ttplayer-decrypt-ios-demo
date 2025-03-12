@@ -1,6 +1,6 @@
 PODS:
   - CryptoSwift (1.8.4)
-  - DRMLib (2.1.1):
+  - DRMLib (2.2.0):
     - CryptoSwift (>= 1.8.3)
   - RangersAppLog/Core (6.16.9):
     - RangersAppLog/Encryptor/VOLC
@@ -38,7 +38,7 @@ PODS:
     - TTSDK/SSL
 
 DEPENDENCIES:
-  - DRMLib (= 2.1.1)
+  - DRMLib
   - SnapKit
   - TTSDK/Player (= 1.41.3.603-premium)
 
@@ -54,11 +54,11 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   CryptoSwift: e64e11850ede528a02a0f3e768cec8e9d92ecb90
-  DRMLib: 90a2175bc00f26fccedd9cb98019453c203eda1a
+  DRMLib: 542bdb0b0fcdb95ce956971632f19baeee91e629
   RangersAppLog: d4fa640a806e5fef583b07bea2f610684e81161e
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   TTSDK: fc0df802d610d4a97dde0196acf8d729bf0cf19a
 
-PODFILE CHECKSUM: e15870619a5484215cfadf48af177e3c57bc9234
+PODFILE CHECKSUM: 46917e3531f71843177719204cabb8d9eee43407
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
